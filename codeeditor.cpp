@@ -200,12 +200,12 @@ void CodeEditor::toggleHighlight()
 {
     if (highlight)
     {
-        setHighlight(!highlight);
+        setHighlight(false);
         setExtraSelections(QList<QTextEdit::ExtraSelection>());
     }
     else
     {
-        setHighlight(!highlight);
+        setHighlight(true);
         highlightCurrentLine();
     }
 }
