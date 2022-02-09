@@ -1,0 +1,6 @@
+fontFamily = "Chalkboard"
+fontSize = 16
+foregroundColor = "FFFFFF"
+backgroundColor = "0099FF"
+highlightColor = "9900FF"
+highlight = false
